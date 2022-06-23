@@ -12,3 +12,8 @@ let character =
 }
 
 console.log(character.name)
+
+function makeRoll(stat) ={
+  result = Math.random()*20 + stat
+  console.log(result)
+}
